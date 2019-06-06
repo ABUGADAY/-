@@ -453,8 +453,8 @@ function mergeCells(grid: Ext.Grid.Panel, cols: Number[], isAllSome: boolean = f
 
 ## 六、类的规范
 
-**[强制]** 文件名采用大驼峰命名方式 CamelCase 
-**[强制]** 常量名全大写，用**_**分割,例如 MAX_VALUE 
+**[强制]** 文件名采用大驼峰命名方式 CamelCase  
+**[强制]** 常量名全大写，用**_**分割,例如 MAX_VALUE  
 **[建议]** 不得自行更改基础类的实现，在chis中体现为BizXXX.js ， 在phis中体现为SimpleXXX.js
 
 如果需要自行实现，在自行实现的代码中重写函数
