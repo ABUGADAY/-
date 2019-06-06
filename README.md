@@ -18,7 +18,7 @@
 
 **[强制]** 用作代码块起始的左花括号 { 前必须有一个空格。
 
-eg.
+**eg**:
 
 ```javascript
 // good
@@ -44,7 +44,7 @@ function funcName(){
 
 **[强制]** if / else / for / while / function / switch / do / try / catch / finally 关键字后，必须有一个空格。
 
-eg.
+**eg**:
 
 ```javascript
 // good
@@ -76,7 +76,7 @@ while(condition) {
 
 **[强制]** 超长的不可分割的代码允许例外，比如复杂的正则表达式。长字符串不在例外之列。
 
-eg.
+**eg**:
 
 ```javascript
     // good
@@ -136,7 +136,7 @@ eg.
 
 **[建议]** 不同行为或逻辑的语句集，使用空行隔开，更易阅读。
 
-eg.
+**eg**:
 
 ```javascript
 // 仅为按逻辑换行的示例，不代表setStyle的最优实现
@@ -151,7 +151,7 @@ function setStyle(element, property, value) {
 
 **[建议]** 对于 if...else...、try...catch...finally 等语句，推荐使用在 } 号后添加一个换行 的风格，使代码层次结构更清晰，阅读性更好。
 
-eg.
+**eg**:
 
 ```javascript
 if (condition) {
@@ -175,7 +175,7 @@ catch (ex) {
 
 **[强制]** 在 if / else / for / do / while 语句中，即使只有一行，也不得省略块 {...}。
 
-eg.
+**eg**:
 
 ```javascript
 // good
@@ -461,19 +461,19 @@ function mergeCells(grid: Ext.Grid.Panel, cols: Number[], isAllSome: boolean = f
 
 **[强制]** 继承哪个展示类就以该类名为后缀
 
-eg.
+**eg**:
 
 > 继承了BizSimpleListView.js 命名为 HypertensionRecordListView.js
 
 **[建议]** 采用统一前缀
 
-eg.
+**eg**:
 
 > 高血压 全称Hypertension 简称 HY
 
 **[建议]** 将cfg定义写在同个文件中，避免一部分定义在 **.app** 一部分定义在 **.js** 中
 
-eg.
+**eg**:
 
 bad
 
@@ -547,7 +547,7 @@ good
 
 **[强制]** 系统中的提示统一使用MyMessageTip
 
-eg.
+**eg**:
 
 ```javascript
 return MyMessageTip.msg("提示", "请选择建档结束日期！", true);
